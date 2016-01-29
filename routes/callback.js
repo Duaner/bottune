@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
     spotifyApi.setRefreshToken(data.body.refresh_token);
     res.redirect('/search');
   }, function(err) {
-    console.log('Something went wrong!', err);
+    res.redirect('/');
   });
 });
 

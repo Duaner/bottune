@@ -8,6 +8,8 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var callback = require('./routes/callback');
 var search = require('./routes/search');
+var playlists = require('./routes/playlists');
+var add = require('./routes/add');
 
 var app = express();
 
@@ -26,6 +28,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/callback', callback);
 app.use('/search', search);
+app.use('/playlists', playlists);
+app.use('/add', add);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
