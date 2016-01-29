@@ -19,7 +19,8 @@ var bottune = require('../lib/bottune.js');
  *  BOT_NAME: the username you want to give to the bot within your organisation.
  */
 var token = "xoxb-19779077654-uMCtH6xOtRRJtjphWxwFknN6"
-var name = "jose";
+var name = "morsay";
+var id = "U0KNX29K8";
 
 var bottune = new bottune({
     token: token,
