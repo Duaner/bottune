@@ -29,6 +29,7 @@
     "request": "^2.69.0",
     "serve-favicon": "~2.3.0",
     "slackbots": "^0.5.1",
+    "spotify-node-applescript": "^0.2.2",
     "spotify-web-api-node": "^2.2.0",
     "sqlite3": "^3.1.1",
     "verbal-expressions": "^0.2.1"
