@@ -5,8 +5,7 @@
   "main": "lib/bottune",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./bin/www",
-    "start-bot": "nodemon ./bin/bot.js"
+    "start": "nodemon ./bin/bot.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +26,7 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "nodemon": "^1.8.1",
+    "request": "^2.69.0",
     "serve-favicon": "~2.3.0",
     "slackbots": "^0.5.1",
     "spotify-web-api-node": "^2.2.0",
